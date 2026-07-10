@@ -49,7 +49,7 @@ public interface Log {
     void debug(CharSequence content);
 
     /**
-     * Sends a message (and accompanying exception) to the user in the <b>debug</b> error level.
+     * Sends a message (and accompanying exception) to the user at the <b>debug</b> error level.
      * The error's stacktrace will be output when this error level is enabled.
      *
      * @param content the message to log
